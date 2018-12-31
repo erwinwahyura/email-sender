@@ -1,0 +1,25 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "description": "trying to use email third party like SES, Elastic-Email, Postmarkapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwinwahyura/email-sender.git"
+  },
+  "keywords": [],
+  "author": "Erwin W Ramadhan <erwinwahyuramadhan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erwinwahyura/email-sender/issues"
+  },
+  "homepage": "https://github.com/erwinwahyura/email-sender#readme",
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "dotenv": "^6.2.0",
+    "postmark": "^2.2.4"
+  }
+}
