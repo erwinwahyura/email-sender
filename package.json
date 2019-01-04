@@ -19,6 +19,7 @@
   "homepage": "https://github.com/erwinwahyura/email-sender#readme",
   "dependencies": {
     "aws-sdk": "^2.382.0",
+    "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "postmark": "^2.2.4"
   }
