@@ -14,10 +14,6 @@ client.messages
       .done();
 
 // 2. order notification
-const accountSid = process.env.ACCOUNT_SID
-const authToken = process.env.AUTH_TOKEN
-const client = require('twilio')(accountSid, authToken);
-
 client.messages
       .create({
          body: 'Your Yummy Cupcakes Company order of 1 dozen frosted cupcakes has shipped and should be delivered on July 10, 2019. Details: http://www.yummycupcakes.com/',
